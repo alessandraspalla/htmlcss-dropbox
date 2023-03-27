@@ -82,11 +82,11 @@ h1 {
 
 .text {
     width: 35%;
-    font-size: 12.5px;
 }
 
 .fa-arrow-down {
     font-size: 40px;
+    margin-top: 70px;
 }
 
 .image {
@@ -94,5 +94,21 @@ h1 {
 }
 
 .image > img {
-    width: 100%;
+    width: 105%;
+    height: 115%;
 }
+
+/* text style */
+
+.text {
+    font-size: 12.5px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.text .button {
+    margin-bottom: 20px;
+}
+
