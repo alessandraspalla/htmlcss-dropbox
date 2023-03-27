@@ -218,6 +218,10 @@ h5{
     left: 0;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .point-planner {
     font-size: 10px;
     margin: 15px 0;
@@ -225,6 +229,35 @@ h5{
 
 .fa-check {
     color: #0061ff;
+}
+
+/* row style */
+
+.row {
+    margin-top: 40px;
+    border: 1px solid #999;
+}
+
+.flex.orizontal {
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.row .col-left {
+    width: 60%;
+}
+
+.row .col-right {
+    width: 27%;
+}
+
+.col-right .button{
+    width: 100%;
+    margin: 0;
+}
+
+.col-left h5 {
+    margin-bottom: 40px;
 }
 
 /* DEBUG */
