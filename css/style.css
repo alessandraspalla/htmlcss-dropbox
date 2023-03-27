@@ -199,8 +199,19 @@ h5{
 
 .grey.buy-now {
     display: block;
-    border-bottom: 1px solid #999;
     padding-bottom: 20px;
+    position: relative;
+}
+
+.grey.buy-now::after {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 1px;
+    color: #999;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .point-planner {
