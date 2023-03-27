@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+i {
+    padding-top: 3px;
+}
+
 .flex {
     display: flex;
 }
@@ -207,8 +211,8 @@ h5{
     content: '';
     display: block;
     width: 25%;
-    height: 1px;
-    color: #999;
+    height: .5px;
+    background-color: #999;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -217,6 +221,10 @@ h5{
 .point-planner {
     font-size: 10px;
     margin: 15px 0;
+}
+
+.fa-check {
+    color: #0061ff;
 }
 
 /* DEBUG */
