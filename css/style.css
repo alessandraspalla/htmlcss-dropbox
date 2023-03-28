@@ -301,5 +301,37 @@ section .text {
     width: 100%;
 }
 
+/* section style */
+
+.left {
+    width: 55%;
+}
+
+/* section background light-bluee */
+
+.light-blue {
+    background-color: #b4d0e7;
+    min-height: 250px;
+}
+
+.light-blue .flex {
+    min-height: 250px   ;
+    align-items: center;
+}
+
+.light-blue .left {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.bordeaux {
+    color: #61082b;
+}
+
+.button.white.no-border {
+    border: none;
+    width: 200px;
+}
+
 /* DEBUG */
 
