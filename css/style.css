@@ -404,8 +404,31 @@ section.light-blue {
     width: 200px;
 }
 
+/* sezione domande frequenti style */
 
+.bloc-question {
+    margin-bottom: 100px;
+}
 
+h2.question {
+    margin-top: 0;
+    padding-bottom: 40px;
+}
+
+.question {
+    margin: 0;
+    padding: 25px 0;
+    border-bottom: 1px solid #999;
+    position: relative;
+}
+
+.question i {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translate(0, -50%);
+}
 
 /* footer style */
 
@@ -444,5 +467,3 @@ footer a {
     left: 0;
 }
 
-
-/* DEBUG */
