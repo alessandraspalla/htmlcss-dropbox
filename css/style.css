@@ -15,6 +15,14 @@ i {
     padding-top: 3px;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 230%;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -332,6 +340,47 @@ section .text {
     border: none;
     width: 200px;
 }
+
+
+
+
+/* footer style */
+
+footer {
+    font-size: 11px;
+    color: #fff;
+    padding-top: 70px;
+    min-height: 400px;
+    background-color: #000;
+}
+
+.footer-item {
+    width: 18%;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+
+.language {
+    margin-top: 80px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.language::after {
+    content: '';
+    /* display: block; */
+    width: 10%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 /* DEBUG */
 
