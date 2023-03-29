@@ -78,10 +78,36 @@ header a {
 .a.flex {
     height: 60px;
     align-items: center;
+    position: relative;
+    padding: 0 10px;
 }
 
 .a:hover {
+    background-color: #f5f5f5;
     border-bottom: 2px solid black;
+}
+
+.a:hover .menu {
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    bottom: -102px;
+    left: 0;
+    width: 145px;
+    height: 100px;
+    border: 1px solid #999;
+    background-color: #f5f5f5;
+    display: none;
+}
+
+.text-menu {
+    height: calc(100%/3);
+}
+
+.text-menu:hover {
+    background-color: #d3d3d3;
 }
 
 nav.flex {
