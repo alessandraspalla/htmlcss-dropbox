@@ -97,17 +97,19 @@ header a {
     left: 0;
     width: 145px;
     height: 100px;
-    border: 1px solid #999;
+    border: 1px solid #e3e2e2;
     background-color: #f5f5f5;
+    border-radius: 5px;
     display: none;
 }
 
 .text-menu {
-    height: calc(100%/3);
+    padding-left: 5px;
+    line-height: 33px;
 }
 
 .text-menu:hover {
-    background-color: #d3d3d3;
+    background-color: #e3e2e2;
 }
 
 nav.flex {
@@ -487,9 +489,19 @@ h2.question {
 .question i {
     display: block;
     position: absolute;
-    top: 50%;
+    top: 25px;
     right: 30px;
-    transform: translate(0, -50%);
+}
+
+.question:hover .answer p {
+    display: block;
+}
+
+.answer p {
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-right: 40px;
+    display: none;
 }
 
 /* footer style */
@@ -510,9 +522,8 @@ footer a {
     color: #fff;
 }
 
-
-
 .language {
+    color: #999;
     margin-top: 80px;
     padding-top: 30px;
     position: relative;
