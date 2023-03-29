@@ -46,6 +46,12 @@ img {
     height: 30px;
     padding: 0 10px;
     font-size: 11px;
+    transition: all .5s ease;
+}
+
+.button:hover {
+    opacity: .8;
+    box-shadow: 3px 3px 3px #999;
 }
 
 /* header style */
@@ -66,7 +72,16 @@ header {
 }
 
 header a {
-    color: #000;;
+    color: #000;
+}
+
+.a.flex {
+    height: 60px;
+    align-items: center;
+}
+
+.a:hover {
+    border-bottom: 2px solid black;
 }
 
 nav.flex {
@@ -486,4 +501,3 @@ footer a {
     top: 0;
     left: 0;
 }
-
