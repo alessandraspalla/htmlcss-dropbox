@@ -11,16 +11,8 @@ a {
     text-decoration: none;
 }
 
-i {
-    padding-top: 3px;
-}
-
 ul {
     list-style: none;
-}
-
-li {
-    line-height: 230%;
 }
 
 .flex {
@@ -208,9 +200,13 @@ h5{
     margin-bottom: 15px;
 }
 
-.flex.planner {
-    gap: 3px;
-    margin: 15px 0;
+.fa-ul {
+    margin-left: 13px;
+}
+
+li {
+    font-size: 10px;
+    margin-bottom: 10px;
 }
 
 .col .button {
