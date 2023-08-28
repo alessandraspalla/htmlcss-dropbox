@@ -60,7 +60,7 @@ header {
     height: 60px;
     width: 100%;
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     background-color: #fff;
     font-size: 12px;
@@ -119,7 +119,8 @@ nav.flex {
     align-items: center;
 }
 
-.flex-left, .flex-right {
+.flex-left,
+.flex-right {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -151,7 +152,7 @@ h1 {
     color: #000;
 }
 
-#img-hero{
+#img-hero {
     width: 65%;
 }
 
@@ -186,7 +187,7 @@ h2 {
 }
 
 .checkbox {
-    margin-right: 50px ;
+    margin-right: 50px;
 }
 
 #circle-blue {
@@ -233,7 +234,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-h5{
+h5 {
     margin-bottom: 8px;
 }
 
@@ -306,7 +307,7 @@ li {
     width: 27%;
 }
 
-.col-right .button{
+.col-right .button {
     width: 100%;
     margin: 0;
 }
@@ -356,14 +357,14 @@ section .text {
 
 /* section partner pubblicità style */
 
-.col-logo, .col-description {
+.col-logo,
+.col-description {
     width: calc(100%/3);
-    max-height: 400px;
 }
 
 .logo-partner {
     width: 50%;
-    height: 200px;
+    height: calc((100vw/3)/2);
     position: relative;
 }
 
@@ -450,7 +451,7 @@ section.light-blue {
 }
 
 .light-blue .flex {
-    min-height: 250px   ;
+    min-height: 250px;
     align-items: center;
 }
 
